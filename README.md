@@ -3,7 +3,7 @@ We have three contracts createFund, crowdFund & token contract.
 
 Functionality
 
-● Project owners can create a new crowdfunding project.  
+● Project owners can create a new crowdfunding project. <br>
 ● Every new crowdfunded project has a timeline and a funding goal.
 ● Users can fund different projects within the timeline
 ● If the funds are not successfully raised by the time the campaign ends, users should
