@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# CrowdFunding Project
+We have three contracts createFund, crowdFund & token contract.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Functionality
+● Project owners can create a new crowdfunding project
+● Every new crowdfunded project has a timeline and a funding goal
+● Users can fund different projects within the timeline
+● If the funds are not successfully raised by the time the campaign ends, users should
+be able to withdraw their funds
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+In this project I have demonstrated
+● Ability to create and use modifiers appropriately
+● Ability to create and emit events appropriately
+● Ability to use contract inheritance appropriately
+● Ability to validate conditions and throw sensible errors
+● Ability to properly use global functions to access information about the
+transaction, block, address, etc.
+● Ability to choose appropriate memory types for parameters, variables,
+etc.
